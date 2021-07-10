@@ -68,3 +68,13 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+Hello my name is Daniel Park I am a front end developer, this is a repository that contains code for my Profile website. The purpose of this website is to display some of my projects that worked on and or made. This project is built on CSS, React and React Router, if you refresh the page it will show the page you are currently on instead of going back to the home page.
+
+Some of the challenges that I encountered was CSS layout issues, the layout was unsatifactory, and encountering some warnings from React. The warnings from React was not utilizing hooks and using the .map() array method to display the components. Some of the other challenges that were encountered was determining what kind of pages to display to the user, such as a contact page or an about page. Some features of the website that I plan to improve is CSS layout to make the site look better. With any project there is always room for improvement.
+
+The svg files for Github, phone, LinkedIn, and Gmail icons can be downloaded from these sites:
+https://simpleicons.org/
+https://iconmonstr.com/phone-10-svg/
+
+If you have any questions please feel free to contact me. HAPPY CODING!!!
