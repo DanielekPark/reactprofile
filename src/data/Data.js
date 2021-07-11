@@ -88,7 +88,7 @@ export const workData = [
     title: 'Autism Spectrum Therapies/ Burbank, Ca.',
     date: 'Behavior Interventionist May 2018–June 2019.', 
     li1: 'Collaborated with a clinical supervisor to manage and improve maladaptive behavior for children with special needs.',
-    li2: "Assisted in improving social and motor skills for clients; taught parents strategies to address skills and behaviors."
+    li2: "Assisted in improving social and motor skills for clients; taught parents strategies to improve motor skills and to address maladative behavior."
   },    
 ];
 
