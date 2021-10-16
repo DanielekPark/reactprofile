@@ -111,7 +111,7 @@ export const projectsData = [
   {
     id: 'course-api',
     title: 'Course Api',
-    link: 'https://danielekpark.github.io/rsvpreact/',
+    link: 'https://github.com/DanielekPark/courseapi',
     desc: 'An application built with React, which keeps track of invited guests and provides visual feedback of unconfirmed guests.',
     li1: 'Improved site performance of an original project by refactoring class based components with React hooks.',
     li2: 'Provided a new feature with alerts when users edited their names and also prevented users from adding empty entries.'
