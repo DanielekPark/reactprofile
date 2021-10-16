@@ -77,4 +77,9 @@ The svg files for Github, phone, LinkedIn, and Gmail icons can be downloaded fro
 https://simpleicons.org/
 https://iconmonstr.com/phone-10-svg/
 
+Image sources
+https://www.complex.com/tag/video-games
+
+https://tutorialedge.net/nodejs/editing-xml-files-with-nodejs/
+
 If you have any questions please feel free to contact me. HAPPY CODING!!!

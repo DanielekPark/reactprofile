@@ -20,17 +20,28 @@ footer {
   margin: 0 auto;
 }
 
-.header,
 .intro,
-.quotes,
 .desc,
+.project-info .info {
+  text-align: left;
+}
+
+.header,
+.quotes,
 blockquote,
 .main-nav .nav-btn,
 .project-title,
-.project-desc,
+/* .project-desc, */
 .project-desc li,
 .resume {
   text-align: center;
+}
+
+.intro,
+.desc,
+.info {
+  line-height: 1.4;
+  padding-left: 5px;
 }
 
 .main-nav {
@@ -48,7 +59,9 @@ blockquote,
 .svg-container a,
 .project-card a,
 .link,
-.certification {
+.certification,
+.repo-btn,
+.bp-pts a {
   text-decoration: none;
 }
 
@@ -64,13 +77,14 @@ blockquote,
 }
 
 /* navigation links */
-.main-nav .nav-btn {
+.main-nav .nav-btn,
+.links-container a {
   font-size: 1rem;
   color: #fff;
   background-color: #3385ff;
   text-align: center;
   display: block;
-  padding: 1rem;
+  padding: 0.6rem;
   transition: 0.3s;
 }
 
@@ -82,6 +96,28 @@ blockquote,
 /* containers */
 .wrapper {
   min-height: calc(100vh - 312px);
+}
+
+/* home */
+.card {
+  padding-bottom: 0.4rem;
+}
+
+.repo-btn,
+.links-container a {
+  border-radius: 0.6rem;
+}
+
+.repo-btn {
+  font-size: 1rem;
+  color: #fff;
+  background-color: #3385ff;
+  display: block;
+  border-radius: 0.6rem;
+  margin: 0 auto;
+  padding: 1rem;
+  width: 30%;
+  text-align: center;
 }
 
 /* about page */
@@ -112,10 +148,33 @@ blockquote::after {
 
 .project-desc {
   flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .links-container {
   justify-content: space-around;
+  padding-bottom: 0.5rem;
+}
+
+/* =========RESUME========= */
+.skills-container .bp-pts {
+  list-style-position: inside;
+  display: table;
+  padding-left: 0;
+  margin: 0 auto;
+}
+
+.skills-container h2 {
+  text-align: center;
+}
+
+.bp-pts {
+  line-height: 1.8;
+}
+
+.bold li:first-child {
+  font-weight: 900;
+  font-size: 1.2rem;
 }
 
 /* =========FOOTER & SVGs========= */
@@ -205,8 +264,13 @@ footer svg {
 .project-desc a,
 footer a:visited,
 .link,
-.certification {
-  color: blue;
+.certification,
+.bp-pts a {
+  color: #0456ef;
+}
+
+.links-container a {
+  color: #fff;
 }
 
 /* =========PROJECTS PAGE========= */
@@ -223,8 +287,7 @@ footer a:visited,
    MEDIA QUERIES
 ======================================== */
 @media (min-width: 768px) {
-  .main-nav,
-  .skills-container {
+  .main-nav {
     display: flex;
   }
 
@@ -232,8 +295,9 @@ footer a:visited,
     flex-grow: 1;
   }
 
-  .skills-container {
-    justify-content: space-around;
+  .skills-container .bp-pts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .main-header,
@@ -245,6 +309,17 @@ footer a:visited,
   /* ====ABOUT PAGE & PROJECTS PAGE==== */
   .card-img {
     float: left;
+    margin-right: 7px;
+  }
+
+  .home .card {
+    display: block;
+    position: relative;
+  }
+
+  .repo-btn {
+    position: absolute;
+    right: 20%;
   }
 
   .card,
