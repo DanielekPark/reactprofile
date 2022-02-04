@@ -21,6 +21,8 @@ const Resume = () => {
           <li>Express.js</li>
           <li>React.js</li>
           <li>Node.js</li>
+          <li>Typescript</li>
+          <li>CSS Tailwind</li>
         </ul>
       </>
     </div>

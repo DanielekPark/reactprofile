@@ -1,5 +1,5 @@
 import drawing from '../../src/images/drawing.jpeg'; 
-import volunteer from '../images/directory.jpeg'; 
+import icc from '../images/icc.png'; 
 import self from '../images/self.jpeg'; 
 import vg from '../images/vg.jpeg'; 
 import gallery from '../images/gallery.jpeg'; 
@@ -16,7 +16,7 @@ export const recentData = [
   {
     id: 'volunteer',
     desc: "I am also volunteering my time to help develop a health directory for the LGBTQ community in Boulder, Colorado while improving my skills in web development.",
-    img: volunteer,
+    img: icc,
   },
   // {
   //   id: 'node',
@@ -46,9 +46,9 @@ export const portfolioData = [
     name: 'Health-Directory',
     id: 'Directory',
     desc: "The health directory is built with React, I was able to improve upon my skills and volunteer my time to LGBTQ community in Boulder, Colorado. The source code is not available to the public, and is planned to have more features.",
-    img: volunteer,
-    link: 'https://inclusivecareco.org/',
-    site: 'https://inclusivecareco.org/'
+    img: icc,
+    link: 'https://iccdev.gtsb.io/',
+    site: 'https://iccdev.gtsb.io/'
   }, 
   {
     name: 'Student Pagination',
