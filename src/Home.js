@@ -25,15 +25,6 @@ const Home = () => {
             </React.Fragment>
           )
         })}
-      <>
-        <div className="card clearfix">
-          <img src={node} alt="image" className="card-img" />
-          <p className="desc">I've built an API for educational resources with Node.js, Express.js, and Mongoose.js. It enables users to create a user account and login. It also allows users to create, read, update, and delete educational resources. However the website is still under development.
-          </p> 
-          <a className="repo-btn" href="https://github.com/DanielekPark/courseapi" target="_blank" rel="noreferrer">Repo</a>
-        </div>
-        <br />
-      </>        
       </div>
     </div>
   )

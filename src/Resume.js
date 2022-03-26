@@ -23,6 +23,7 @@ const Resume = () => {
           <li>Node.js</li>
           <li>Typescript</li>
           <li>CSS Tailwind</li>
+          {/* <li>SQL</li> */}
         </ul>
       </>
     </div>
