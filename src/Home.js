@@ -26,8 +26,15 @@ const Home = () => {
           )
         })}
       </div>
+        <div className='card clearfix'>
+          <div className='card-img clearfix test'>
+          </div>
+          <p className='desc'>test</p> 
+          <p className='desc'>test</p> 
+        </div>      
     </div>
   )
 }
 
 export default Home;
+// remove pagination and rsvp
