@@ -13,11 +13,11 @@ const About = () => {
         const { id, desc, img } = card; 
         return (
           <React.Fragment key={id}>
-            <div className='card clearfix'>
-              <img src={img} alt='img' className='card-img' />
-              <p className='desc'>{desc}</p>
-            </div>
-            <br />
+              <div className='card clearfix'>
+                <div className={`card-img ${img}`}></div>
+                <p className='desc'>{desc}</p>
+              </div>
+              <br />
           </React.Fragment>
         )
       })}

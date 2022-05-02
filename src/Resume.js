@@ -23,7 +23,7 @@ const Resume = () => {
           <li>Node.js</li>
           <li>Typescript</li>
           <li>CSS Tailwind</li>
-          {/* <li>SQL</li> */}
+          <li>SQL</li>
         </ul>
       </>
     </div>
@@ -38,20 +38,20 @@ const Resume = () => {
             <li>{li1}</li>
             <li>{li2}</li>
             <li>{li3}</li>
-            <li>{li4}</li>
           </ul>  
         )
       })}
 
     <h2 className="resume">Work Experience</h2>
       {work.map((item) => {
-        const {id, title, date, li1, li2} = item; 
+        const {id, title, date, li1, li2, li3} = item; 
         return (
           <ul className="bp-pts" key={id}>
             <li><b><i>{title}</i></b></li>
             <li>{date}</li>
             <li>{li1}</li>
             <li>{li2}</li>
+            <li>{li3}</li>
           </ul>  
         )
       })}
@@ -69,10 +69,17 @@ const Resume = () => {
         )
       })}
       
-      <ul className="bp-pts bold">
+      {/* <ul className="bp-pts bold">
         <li>Student Pagination <a className="link" href="https://danielekpark.github.io/pagination/" target="_blank" rel="noreferrer">Site</a></li>
         <li>An application built with HTML, CSS, and Javascript that displays a list of people with their name and information</li>
         <li>A responsive website with improved interactivity, enables users to view a different set of results of people with button clicks</li>
+      </ul>   */}
+
+      <ul className="bp-pts bold">
+        <li>Link Directory <a className="link" href="https://feld-danielekpark.vercel.app/" target="_blank" rel="noreferrer">Site</a></li>
+        <li>A server side application, enables users to access resources for design and development</li>
+        <li>An application built with Next.js, SQL, and CSS Tailwind, enables users to find and use tools/websites to assist and accelerate development and design needs</li>
+        <li>Implemented Typescript to catch errors and eliminate potential bugs</li>
       </ul>  
 
     <h3>Certification: <a className="certification" href="https://www.credential.net/fc32925c-3dd6-4c5d-926c-f6034e66be80" target="_blank" rel="noreferrer">Team Treehouse Front End Techdegree</a></h3>
@@ -82,4 +89,5 @@ const Resume = () => {
  );
 }
 
+// remove pagination and rsvp
 export default Resume; 

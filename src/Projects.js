@@ -12,7 +12,7 @@ const Projects = () => {
           return (
             <React.Fragment key={id}>
               <div className='project-card clearfix'>
-                <img src={img} alt='img' className='card-img' />
+                <div className={`card-img ${img}`}></div>
                 <div className='project-desc'>
                   <h3 className='project-title'>{name}</h3>
                   <p className='info'>{desc}</p>
