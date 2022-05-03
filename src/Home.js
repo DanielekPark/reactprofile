@@ -28,7 +28,7 @@ const Home = () => {
       </div>
       <div className='card clearfix'>
         <div className='card-img feld' />
-        <p className='desc'>I am currently developing a online resource of links for designers, frontend, and backend developers. The project contains links to sites which can accelerate and help project needs. It can be seen on this <a href="https://feld-danielekpark.vercel.app/" target="_blank" rel="noreferrer">Link</a></p>
+        <p className='desc'>I am currently developing a online resource of links for designers, frontend, and backend developers. The project contains links to sites which can accelerate and help project needs.</p>
       </div>
     </div>
   )
