@@ -284,7 +284,7 @@ footer a:visited,
 }
 
 /* add following to card-img class */
- 
+
 /* .test {
   background-image: url('images/drawing.jpeg');
   background-size: contain;
@@ -303,24 +303,31 @@ footer a:visited,
 .drawing {
   background-image: url('images/drawing.jpeg');
 }
+
 .icc {
   background-image: url('images/icc.png');
 }
+
 .self {
   background-image: url('images/self.jpeg');
 }
+
 .vg {
   background-image: url('images/vg.jpeg');
 }
+
 .providers {
   background-image: url('images/providers.png');
 }
+
 .threebd {
   background-image: url('images/3bd.jpg');
 }
+
 .pagination {
   background-image: url('images/pagination.jpeg');
 }
+
 .feld {
   background-image: url('images/feld.jpg');
 }
@@ -328,8 +335,9 @@ footer a:visited,
 .rsvp {
   background-image: url('images/rsvp.jpeg');
 }
-.gallery {
-  background-image: url('images/gallery.jpeg');
+
+.shopify {
+  background-image: url('images/shopify.jpeg');
 }
 
 /* ===================================== 

@@ -16,7 +16,7 @@ export const recentData = [
     id: 'volunteer',
     desc: "I am also volunteering my time to help develop a health directory for the LGBTQ community in Boulder, Colorado while improving my skills in web development.",
     img: 'icc',
-  }  
+  }
 ];
 
 //About page
@@ -25,7 +25,7 @@ export const aboutData = [
     id: 'interest',
     desc: "These were some reminders that helped my journey as a developer. It helps me to stay humble and it reminds me that if I am unable to complete a task I can improve and be able to complete to solve it in the future.",
     img: 'self',
-  },   
+  },
   {
     id: 'hobby',
     desc: 'On my spare time I like to watch documentary series, stand up comedy on Netflix, and listen to lofi. I also like to spend time with friends and play video games on the Nintendo Switch.',
@@ -42,7 +42,7 @@ export const portfolioData = [
     img: 'icc',
     link: 'https://github.com/OutBoulderCounty/icc-ui',
     site: 'https://iccdev.gtsb.io/'
-  }, 
+  },
   {
     name: 'Health Directory Provider Search',
     id: 'provider-search',
@@ -50,15 +50,15 @@ export const portfolioData = [
     img: 'providers',
     link: 'https://github.com/OutBoulderCounty/icc-provider-search',
     site: 'icc-provider-search.vercel.app'
-  }, 
+  },
   {
     name: '3 Black Dot',
-    id:'3bd',
+    id: '3bd',
     desc: "A contract role to develop a career page for 3 Black Dot. It was built with React, Gatsby, React Responsive Carousel, and React-Pure-Modal. The Github repository is unavailable to the public.",
     img: 'threebd',
     link: 'https://www.3blackdot.com/',
     site: 'https://www.3blackdot.com/',
-  },  
+  },
   // {
   //   name: 'Student Pagination',
   //   id:'pagination',
@@ -76,12 +76,12 @@ export const portfolioData = [
   //   site: 'https://danielekpark.github.io/rsvpreact/'
   // },     
   {
-    name: 'Image-gallery',
-    id: 'gallery',
-    desc: "The image gallery website that displays various images. It enables users to browse images at different sizes and this website was a re-write of the original site.",
-    img: 'gallery',
-    link: 'https://github.com/DanielekPark/Img_gallery',
-    site: 'https://danielekpark.github.io/Img_gallery/'    
+    name: 'Independent Contractor',
+    id: 'independentcontractor',
+    desc: "Completed a projects as a independent contractor. Collaborated with a senior developer/designer to develop Shopify sites.",
+    img: 'shopify',
+    link: '#',
+    site: '#'
   },
   {
     name: 'Link directory',
@@ -89,7 +89,7 @@ export const portfolioData = [
     desc: "Directory of links to help direct users to resources pertaining to their project needs.",
     img: 'feld',
     link: 'https://github.com/DanielekPark/FELD',
-    site: 'https://feld-danielekpark.vercel.app/'    
+    site: 'https://feld-danielekpark.vercel.app/'
   },
 ];
 
@@ -110,14 +110,22 @@ export const workData = [
   {
     id: '3bd',
     title: `3 Black Dot/Los Angeles, Ca. (Contract/Remote)`,
-    date: 'Front end developer Feb 2022 - Mar 2022', 
+    date: 'Front end developer Feb 2022 - Mar 2022',
     li1: 'Collaborated with a designer and senior developer to construct a new career page using HTML, CSS, React, and Gatsby',
     li2: 'Converted an Adobe Xd prototype to HTML and CSS to inform users of company culture and mission',
     li3: 'Implemented user interactivity features with React and Javascript for site navigation and to direct users to current job openings'
-  }
+  },
+  {
+    id: 'Independent Contractor',
+    title: `Independent contractor/Los Angeles, Ca. (Contract/hybrid)`,
+    date: 'Front end developer Oct 2022 - Nov 2022',
+    li1: 'Collaborated with a designer and senior developer to construct new Shopify stores',
+    li2: 'Translated an Adobe Xd file mockups to develop Shopify stores',
+    li3: 'Implemented custom CSS styles to override Shopify themes'
+  },
 ];
 
-export const projectsData = [ 
+export const projectsData = [
   // {
   //   id: 'rsvp-app',
   //   title: 'React Rsvp',
@@ -133,5 +141,5 @@ export const projectsData = [
     desc: 'Utilized HTML, CSS, and Javascript to construct a mobile first responsive photo displaying website which enables users to view small and big images.',
     li1: 'Improved site performance of an older project by replacing J-query plugins with a new script.',
     li2: 'Reduced server calls, by using fewer site images.'
-  }    
+  }
 ]
